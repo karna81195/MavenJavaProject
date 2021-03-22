@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestingSuite" preserve-order="true" thread-count="1" verbose="10">
+    <test name="Test1">
+        <classes>
+            <class name="TestCases.FirstTest" />
+        </classes>
+    </test>
+    <test name="Test2">
+        <classes>
+            <class name="TestCases.SecondTest" />
+        </classes>
+    </test>
+    <test name="Test3">
+        <classes>
+            <class name="TestCases.ThirdTest" />
+        </classes>
+    </test>
+        <test name="Test4">
+        <classes>
+            <class name="TestCases.FourthTest" />
+        </classes>
+    </test>
+</suite>
